@@ -1,0 +1,29 @@
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1000px;
+    height: 100px;
+    background-color: rgb(207, 183, 183);
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
+.button {
+    width: 100px;
+    height: 50px;
+    /* border-style: none; */
+    border: outset;
+    background-color: rgb(71, 141, 71);
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+}
+.boxInfo{
+    align-items: flex-start;
+    justify-content: start;
+}
+.info{
+
+}

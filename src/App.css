@@ -1,0 +1,119 @@
+.App {
+  text-align: center;
+  justify-content: center;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: flex;
+  display: flex;
+  flex-direction: initial;
+  /* align-items: right;
+  justify-content: right; */
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.container{
+  background-color: rgb(23, 0, 44);
+  margin: 20px 20px;
+  width: 80vh;
+  height: 100vh;
+  border-radius: 20px;
+  align-content: center;
+  justify-content: center;
+  
+  
+}
+
+.btn{
+      /* display: flex; */
+      padding: 25px 10px;
+      border-radius: 6px;
+      text-align: center;
+      font-weight: bold;
+      max-width: 320px;
+      width: 500px;
+      overflow: hidden;
+      color: rgba(255,255,255,1);
+      cursor: pointer;
+      letter-spacing: 2px;
+      box-shadow: inset 0 0 0 1px rgba(0,0,0,0.1);
+      text-decoration: none;
+      transition: all ease 0.5s;
+      background: #10B87B;
+      margin: 10px;
+}
+ 
+.agregarContador:after,
+.agregarContador:before{
+	width: 200px;
+	height: 50vh;
+	content: '';
+	display: block;
+	background: rgba(255,255,255,0.5);
+	transform: rotate(45deg);
+	top: -60px;
+	position: absolute;
+	transition: none;
+	right:-45%;
+	cursor: pointer;
+}
+ 
+.agregarContador:before{
+	left: -48%;
+}
+ 
+.agregarContador:hover{
+	text-shadow: 0 1px 1px rgba(0,0,0,0.5);
+	background:#969b99
+}
+ 
+.agregarContador:hover:after,
+.agregarContador:hover:before{
+	transform: rotate(45deg), scaleX(130%);
+	background: rgba(255,255,255,0.1);
+	transition: all ease 0.5s;
+}
+ 
+.agregarContador:hover:after{
+	right: 130%;
+}
+ 
+.agregarContador:hover:before{
+	left: 130%;
+}
+.contadores{
+  background-color: whitesmoke;
+  height: 30px;
+  width: 500px;
+  border-radius: 10px;
+  display: flex;
+  margin: 20px 100px;
+}
